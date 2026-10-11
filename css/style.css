@@ -1,0 +1,79 @@
+
+body.bg-hitech {
+    background-color: #0b0f19;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.bg-navbar {
+    background-color: rgba(11, 15, 25, 0.85) !important;
+    backdrop-filter: blur(10px);
+}
+
+.bg-glass {
+    background-color: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(12px);
+}
+
+
+.text-cyan {
+    color: #00f2fe !important;
+}
+
+.bg-cyan {
+    background-color: #00f2fe !important;
+}
+
+.text-secondary-light {
+    color: #94a3b8;
+}
+
+
+p {
+    font-size: 16px;                     
+    color: #cbd5e1;                     
+    line-height: 1.8;                   
+}
+
+
+.main-title {
+    text-align: left;                 
+    font-size: 34px;                     
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.about-section h2 {
+    color: #00f2fe;
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #00f2fe;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-placeholder {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border: 2px solid #00f2fe;
+    font-size: 1.2rem;
+    box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .main-title {
+        text-align: center;
+        font-size: 24px;
+    }
+}
