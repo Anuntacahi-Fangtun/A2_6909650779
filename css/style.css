@@ -11,6 +11,7 @@ body.bg-hitech {
     backdrop-filter: blur(10px);
 }
 
+
 .bg-glass {
     background-color: rgba(17, 24, 39, 0.7);
     backdrop-filter: blur(12px);
@@ -25,8 +26,17 @@ body.bg-hitech {
     background-color: #00f2fe !important;
 }
 
+.text-green {
+    color: #10b981 !important;
+}
+
 .text-secondary-light {
     color: #94a3b8;
+}
+
+
+.text-muted {
+    color: #94a3b8 !important; 
 }
 
 
@@ -44,14 +54,22 @@ p {
     letter-spacing: -0.5px;
 }
 
+.portfolio-main-title {
+    color: #00f2fe;
+    font-family: 'Segoe UI', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .about-section h2 {
     color: #00f2fe;
 }
 
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 150px !important;
+    height: 150px !important;
     object-fit: cover;
     object-position: center;
     border: 2px solid #00f2fe;
@@ -68,6 +86,51 @@ p {
     border: 2px solid #00f2fe;
     font-size: 1.2rem;
     box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+}
+
+
+.bg-badge-cyan {
+    background-color: rgba(0, 242, 254, 0.1);
+    border: 1px solid rgba(0, 242, 254, 0.3);
+}
+
+.bg-badge-green {
+    background-color: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #10b981;
+}
+
+
+.portfolio-img-container {
+    height: 180px;
+    background-color: rgba(15, 23, 42, 0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-img-item {
+    max-height: 110px;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+}
+
+.portfolio-img-item:hover {
+    filter: brightness(1);
+}
+
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(0, 242, 254, 0.5) !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 242, 254, 0.2) !important;
 }
 
 
