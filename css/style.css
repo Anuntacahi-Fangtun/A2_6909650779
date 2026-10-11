@@ -1,4 +1,3 @@
-
 body.bg-hitech {
     background-color: #0b0f19;
     color: #e2e8f0;
@@ -46,7 +45,6 @@ p {
     line-height: 1.8;                   
 }
 
-
 .main-title {
     text-align: left;                 
     font-size: 34px;                     
@@ -63,6 +61,10 @@ p {
 }
 
 .about-section h2 {
+    color: #00f2fe;
+}
+
+.contact-section h3 {
     color: #00f2fe;
 }
 
@@ -102,20 +104,23 @@ p {
 
 
 .portfolio-img-container {
-    height: 180px;
+    height: 160px; 
     background-color: rgba(15, 23, 42, 0.6);
     overflow: hidden;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 12px; 
 }
 
 .portfolio-img-item {
-    max-height: 110px;
-    object-fit: cover;
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: contain; 
+    border-radius: 8px; 
     filter: brightness(0.9);
     transition: filter 0.3s ease;
+    display: block;
 }
 
 .portfolio-img-item:hover {
